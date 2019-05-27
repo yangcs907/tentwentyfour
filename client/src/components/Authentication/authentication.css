@@ -1,0 +1,51 @@
+/* Stylesheet for authentication components */
+
+.signUp {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 20px;
+}
+
+.signUpHeader h4 {
+  font-family: 'Muli' sans-serif !important;
+  color: rgba(155,155,155,0.9);
+  margin-bottom: 20px;
+}
+
+.submitFormButton {
+  background-color: rgba(0,223,255,0.7);
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.submitFormButton:hover {
+  background-color: rgba(0,223,255,1);
+}
+
+
+@media screen and (max-width:1000px) {
+  .signUp {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .signUp {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .signUp {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .signUp h4 {
+    color: rgba(155,155,155,1);
+  }
+}

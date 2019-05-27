@@ -1,0 +1,251 @@
+/* colors for materialize:
+  #9ef3ff - light blue
+  #ff5e5e - rgba(255,94,94) - light red
+  rgba(0,0,124,1) - dark navy
+ */
+.App {
+  text-align: center;
+  background-color: rgba(251,243,234,0.2);
+  font-family: 'Muli', sans-serif;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Stylesheet for layour components */
+
+
+.navLink {
+  margin: 20px;
+  font-size: 17px;
+  color: rgba(255,255,255,0.8);
+  /* font-weight: bold; */
+  font-family: 'Muli', sans-serif;
+}
+
+.navLink:hover {
+  border-bottom-style: solid;
+  border-color: rgba(255,94,94,1);
+  font-weight: bold;
+}
+
+
+/* Stylesheet for authentication components */
+#signlogIcon {
+  color: rgba(255,94,94,1);
+}
+.signUp {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 20px;
+}
+.signUpHeader h4 {
+  font-family: 'Muli', sans-serif;
+  color: rgba(0,0,0,0.6);
+  margin-bottom: 20px;
+}
+.logIn {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 20px;
+}
+.logInHeader h4 {
+  font-family: 'Muli', sans-serif;
+  color: rgba(0,0,0,0.6);
+  margin-bottom: 20px;
+}
+.submitFormButton {
+  background-color: rgba(255,94,94,0.8);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+}
+.submitFormButton:hover {
+  background-color: rgba(255,94,94,1);
+}
+
+/* stylesheet for inputs components */
+.labelStyle {
+  float: left;
+  /* color: rgba(155,155,155,0.9); */
+  /* color: #00dfff; */
+  color: rgba(255,94,94,1);
+  margin: 0px;
+  font-size: 22px;
+  line-height: 10px;
+}
+
+.inputDiv {
+
+}
+input {
+  font-family: 'Muli', sans-serif;
+  color: rgba(0,0,0,0.6);
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: rgba(0,0,0,0.5);
+  font-weight: bold;
+}
+
+.notValid::placeholder {
+  color: rgba(255,0,0,0.8);
+}
+
+.errorMessage {
+  float: left;
+  color: red;
+  margin: 0px;
+  margin-top: 12px;
+  font-size: 11px;
+}
+/* Stylesheet for profile components */
+#currentUserName {
+  color: rgba(255,94,94,1);
+  font-weight: bold;
+}
+.currentUserProfile {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.currentUserProfile h4 {
+  font-family: 'Muli', sans-serif;
+  color: rgba(0,0,0,0.6);
+  margin-bottom: 20px;
+}
+.currentUserProfile h5 {
+  font-family: 'Muli', sans-serif;
+  color: rgba(0,0,0,0.6);
+  border-bottom-style: solid;
+  border-color: rgba(255,94,94,0.7);
+  border-width: 1.5px;
+  padding-bottom: 20px;
+}
+.currentUserProfileHeader {
+  color: rgba(0,0,0,0.7);
+}
+.currentUserProfileHeader h5 {
+  font-weight: bold;
+  border-style: none;
+  padding: 0px;
+}
+#usernameCurrentUser {
+  font-style: italic;
+  margin: 0px;
+  color: rgba(255,94,94,0.8);
+  font-weight: bold;
+}
+.currentUserProfileHeader h6 {
+  padding-top: 20px;
+}
+.socialLinks {
+  text-align: center;
+  padding: 10px;
+}
+#socialIcon {
+  color: rgba(255,94,94,0.9);
+  font-size: 35px;
+  margin: 10px;
+}
+#testimonyCurrentUser {
+}
+#testimonyCurrentUser h6 {
+  color: rgba(255,94,94,0.8);
+  font-weight: bold;
+  text-align: left;
+}
+.currentUserProfileList {
+  text-align: left;
+  padding-left: 25px;
+}
+.currentUserProfileList p {
+  color: rgba(0,0,0,0.6);
+  font-size: 17px;
+}
+.currentUserProfileList h6 {
+  font-weight: bold;
+  color: rgba(255,94,94,0.8);
+}
+#profileProperty {
+  color: rgba(255,94,94,1);
+}
+#ministryExperienceCurrentUser {
+  /* font-family: 'Muli', sans-serif;
+  color: rgba(0,0,0,0.7); */
+}
+#hobbiesCurrentUser {
+
+}
+.prayerRequestsCurrentUser {
+
+}
+
+@media screen and (max-width:1000px) {
+  .signUp {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .currentUserProfile {
+    padding-left:50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .signUp {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .currentUserProfile {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .signUp {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .signUp h4 {
+    color: rgba(155,155,155,1);
+  }
+  .testimonyCurrentUser {
+    padding-left: 10px;
+  }
+  .currentUserProfileList {
+    padding-left: 0px;
+  }
+}
